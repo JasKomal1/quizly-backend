@@ -1,5 +1,5 @@
 class FavoriteSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :quiz_id
   has_one :quiz
   has_one :user
 end
