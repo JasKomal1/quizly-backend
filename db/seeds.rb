@@ -15,7 +15,11 @@ quiz3 = Quiz.create(name: 'political parties', category: 'Politics')
 question1 = Question.create(title:'Who was the first president', choice1:'Lincoln', choice2: 'Jefferson', choice3: 'Washington', answer: 'Washington', quiz_id: quiz1.id)
 question2 = Question.create(title:'LA baseball team', choice1:'Angels', choice2: 'Dodgers', choice3: 'Padres', answer: 'Dodgers', quiz_id: quiz2.id)
 question3 = Question.create(title:'Who is a democrat', choice1:'Ted Cruz', choice2: 'Gavin Newsom', choice3: 'Bernie Sanders', answer: 'Gavin Newsom', quiz_id: quiz3.id)
-question4 = Question.create(title:'What is new question', choice1:'Question2', choice2: 'd', choice3: 'Bernie Sanders', answer: 'd', quiz_id: quiz1.id)
+question4 = Question.create(title:'Who was born in 1972', choice1:'Hitchcock', choice2: 'Cameron Diaz', choice3: 'Jared Leto', answer: 'Cameron Diaz', quiz_id: quiz1.id)
+question5 = Question.create(title:'Who organized March of Mill Children', choice1:'Mary Jones', choice2: 'Emma Goldman', choice3: 'Helen Keller', answer: 'Mary Jones', quiz_id: quiz1.id)
+question6 = Question.create(title:'Who said A chicken in every pot and a car in every garage', choice1:'Coolidge', choice2: 'Wilson', choice3: 'Hoover', answer: 'Hoover', quiz_id: quiz1.id)
+question7 = Question.create(title:'Who was known as the Iron Chancellor', choice1:'Muller', choice2: 'Schmidt', choice3: 'Bismarck', answer: 'Bismarck', quiz_id: quiz1.id)
+
 
 fave1 = Favorite.create(user_id: u1.id, quiz_id: quiz1.id)
 fave2 = Favorite.create(user_id: u1.id, quiz_id: quiz2.id)
