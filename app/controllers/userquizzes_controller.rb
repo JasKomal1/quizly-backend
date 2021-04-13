@@ -14,6 +14,17 @@ class UserquizzesController < ApplicationController
         @quiz = Userquiz.create(user_quiz)
         render json: @quiz
     end
+
+    def update 
+        @quiz = Userquiz.find(params[:id])
+        @quiz.update(user_quiz)
+        render json: @quiz
+    end
+
+    def destroy
+        @quiz = Userquiz.find(params[:id])
+        @quiz.destroy
+    end
     
     private 
 
