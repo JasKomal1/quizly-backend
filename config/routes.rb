@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :questions
   resources :quizzes
 
+  patch "/scorequiz", to: "userquiz#score"
   # get "/userquizzes", to: "userquiz#index"
   # post "/userquizzes", to: "userquiz#create"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
