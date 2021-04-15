@@ -20,6 +20,7 @@ question5 = Question.create(title:'Who organized March of Mill Children', choice
 question6 = Question.create(title:'Who said A chicken in every pot and a car in every garage', choice1:'Coolidge', choice2: 'Wilson', choice3: 'Hoover', answer: 'Hoover', quiz_id: quiz1.id)
 question7 = Question.create(title:'Who was known as the Iron Chancellor', choice1:'Muller', choice2: 'Schmidt', choice3: 'Bismarck', answer: 'Bismarck', quiz_id: quiz1.id)
 
+uq = Userquiz.create(user_id: u1.id, quiz_id: quiz1.id, points: 0)
 
 fave1 = Favorite.create(user_id: u1.id, quiz_id: quiz1.id)
 fave2 = Favorite.create(user_id: u1.id, quiz_id: quiz2.id)

@@ -15,9 +15,11 @@ class UserquizzesController < ApplicationController
         render json: @quiz
     end
 
+
+
     def update 
         @quiz = Userquiz.find(params[:id])
-        @quiz.update(user_quiz)
+        @quiz.update(points: params[:points])
         render json: @quiz
     end
 
