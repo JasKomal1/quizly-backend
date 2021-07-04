@@ -76,6 +76,8 @@ question50 = Question.create(title:'tv triv', choice1:'event1', choice2: 'event2
 question51 = Question.create(title:'tv triv', choice1:'event1', choice2: 'event2', choice3: 'event3', answer: 'event1', quiz_id: quiz7.id)
 question52 = Question.create(title:'tv triv', choice1:'event1', choice2: 'event2', choice3: 'event3', answer: 'event1', quiz_id: quiz7.id)
 question53 = Question.create(title:'tv triv', choice1:'event1', choice2: 'event2', choice3: 'event3', answer: 'event1', quiz_id: quiz7.id)
+question54 = Question.create(title:'tv triv', choice1:'event1', choice2: 'event2', choice3: 'event3', answer: 'event1', quiz_id: quiz7.id)
+question55 = Question.create(title:'tv triv', choice1:'event1', choice2: 'event2', choice3: 'event3', answer: 'event1', quiz_id: quiz7.id)
 
 question17 = Question.create(title:'Music', choice1:'event1', choice2: 'event2', choice3: 'event3', answer: 'event1', quiz_id: quiz6.id)
 
