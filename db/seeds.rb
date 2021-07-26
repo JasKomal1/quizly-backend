@@ -70,7 +70,7 @@ question45 = Question.create(title:'JFK assassinated', choice1:'1963', choice2: 
 question46 = Question.create(title:'MTV launched in the United States', choice1:'1980', choice2: '1990', choice3: '1981', answer: '1981', quiz_id: quiz5.id)
 question47 = Question.create(title:'Tiananmen Square protests', choice1:'1989', choice2: '1990', choice3: '1991', answer: '1989', quiz_id: quiz5.id)
 question48 = Question.create(title:'Space Shuttle Challenger disaster', choice1:'1985', choice2: '1984', choice3: '1986', answer: '1986', quiz_id: quiz5.id)
-question49 = Question.create(title:'First heart transplant', choice1:'1967', choice2: '1976', choice3: '1987', answer: '1967', quiz_id: quiz5.id)
+
 
 question50 = Question.create(title:'tv triv', choice1:'event1', choice2: 'event2', choice3: 'event3', answer: 'event1', quiz_id: quiz7.id)
 question51 = Question.create(title:'tv triv', choice1:'event1', choice2: 'event2', choice3: 'event3', answer: 'event1', quiz_id: quiz7.id)
